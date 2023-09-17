@@ -1,34 +1,35 @@
 
 # Excel Data Processing Library
 
-Diese Bibliothek bietet verschiedene Funktionen zur Datenverarbeitung in Excel. Sie wurde entwickelt, um den Umgang mit Excel-Dateien in Python zu erleichtern, insbesondere im Hinblick auf das Mergen, Filtern und Verarbeiten von Daten aus mehreren Dateien.
+This library offers various functions for data processing in Excel. It was designed to facilitate working with Excel files in Python, especially when it comes to merging, filtering, and processing data from multiple files.
 
 ## Hauptmerkmale
 
-- **Vergleich von Daten aus mehreren Excel-Dateien**: Mit der Funktion `process_excel_files` können Sie Daten aus mehreren Export- und Import-Dateien vergleichen und die Ergebnisse in einer einzigen Datei speichern.
-- **Erweiterte Fehlerbehandlung**: Die Bibliothek bietet robuste Fehlerbehandlung und Logging, um Sie über eventuelle Probleme oder Unstimmigkeiten in den Daten zu informieren.
-- **Flexibilität**: Flexibilität bei der Angabe von Spaltennamen, Schlüsselformaten und Dateipfaden.
-- **(Weitere Funktionen)**: Da diese Bibliothek ständig erweitert wird, werden hier in Zukunft weitere Datenverarbeitungsfunktionen hinzugefügt.
+- **Comparing data from multiple Excel files**: With the `process_excel_files` function, you can compare data from multiple export and import files and save the results in a single file.
+- **Advanced error handling**: The library provides robust error handling and logging to inform you about any potential problems or discrepancies in the data.
+- **Flexibility**: Flexibility in specifying column names, key formats, and file paths.
+- **(Additional Features)**: As this library is continuously being expanded, more data processing functions will be added in the future.
 
 ## Installation
 
-Um diese Bibliothek zu verwenden, klonen Sie einfach das Repository:
+To use this library, simply clone the repository:
 
 ```
 git clone https://github.com/zeynelacikgoez/excel_processor.git
 ```
 
-Stellen Sie sicher, dass Sie `pandas` und `openpyxl` installiert haben:
+Make sure you have `pandas` and `openpyxl` installed:
+
 
 ```
 pip install pandas openpyxl
 ```
 
-## Verwendung
+## Usage
 
 ### process_excel_files
 
-Ein Beispielaufruf der Funktion `process_excel_files`:
+An example call of the `process_excel_files` function:
 
 ```python
 from excel_processor import process_excel_files
