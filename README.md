@@ -3,7 +3,7 @@
 
 This library offers various functions for data processing in Excel. It was designed to facilitate working with Excel files in Python, especially when it comes to merging, filtering, and processing data from multiple files.
 
-## Hauptmerkmale
+## Main features
 
 - **Comparing data from multiple Excel files**: With the `process_excel_files` function, you can compare data from multiple export and import files and save the results in a single file.
 - **Advanced error handling**: The library provides robust error handling and logging to inform you about any potential problems or discrepancies in the data.
